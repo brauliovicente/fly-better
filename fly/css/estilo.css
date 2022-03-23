@@ -1,0 +1,169 @@
+*{
+    margin: 0; padding: 0;
+}
+a{text-decoration: none;}
+li{list-style: none;}
+button{
+    text-align: center;
+    box-shadow: none;
+    cursor: pointer;
+}
+
+/* <header>*/
+    header{
+        width: 100%;
+        height: 80vh;
+        display: flex;
+        flex-direction: column;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.308), rgba(0, 0, 0, 0.308)), url(../img/climbing-to-the-top-g90a6ff642_1920.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+    /* <header nav.top>*/
+        header nav.top{
+            width: 100%;
+            height: 10vh;
+            background-color: transparent;
+            display: flex;
+            justify-content: space-between;
+
+        }
+        /* <header nav.top div.logo>*/
+            header nav.top div.logo{
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                font-size: 1.1em;
+                margin: auto 40px;
+                color: white;
+            }
+        /* <header nav.top div.logo/>*/
+
+        /* <header nav.top ul.menu>*/
+            header nav.top ul.menu{
+                margin: auto 40px;
+            }
+
+            header nav.top ul.menu li{
+                display: inline-block;
+                padding: 0px 10px;
+            }
+            header nav.top ul.menu li a{
+                color: white;
+                font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                padding: 10px;
+                transition:.5s ;
+            }
+            header nav.top ul.menu li a:hover{
+            border-bottom: 4px solid #d58e3e;
+            font-weight: bolder;
+            }
+        /* <header nav.top ul.menu/>*/
+    /* <header nav.top/>*/
+
+    /* < header nav.banner>*/
+        header nav.banner{
+            width: 100%;
+            height: 100%;
+        }
+
+        /* <header nav.banner div.content>*/
+            header nav.banner div.content{
+                width: 100%;
+                height: 100%;
+                margin-top: 200px;
+                text-align: center;
+                font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                color: white;
+            }
+            header nav.banner div.content h1{
+                font:normal normal 3em verdana;
+                letter-spacing: 10px;
+                margin-bottom: 10px;
+
+            }
+            header nav.banner div.content p{
+                font:normal normal .9em 'Arial';
+
+            }
+            header nav.banner div.content button.btn-banner{
+            margin-top: 10px;
+            background-color:transparent ;
+            padding: 12px 60px;
+            border: 2px solid #d58e3e;
+            border-radius: 25px;
+            color: white;
+            font-weight: bold;
+            transition: .5s;
+            }
+
+            header nav.banner div.content button.btn-banner:hover{
+                background-color:#d58e3e;
+                color: white;
+            }
+        /* <header nav.banner div.content/>*/
+    /* < header nav.banner/>*/
+/* < header/>*/
+
+
+
+/* <main>*/
+            main{
+                width: 100%;
+                margin: 50px 0px;
+            }
+            main nav.servicos{
+                width: 100%;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-evenly;
+            }
+
+            main nav.servicos div.card{
+                width: 250px;
+                height: 340px;
+                padding: 2px;
+                text-align: justify;
+                border-radius: 10px;
+                border-bottom: 2px solid #d58e3e;
+            }
+
+            main nav.servicos div.card img{
+                width: 100%;
+                border-top-right-radius: 20px;
+                border-top-left-radius: 20px;
+                 border: 2px solid #d58e3e;
+            }
+
+            main nav.servicos div.card:hover{
+               
+            }
+
+            main nav.servicos div.card span.content{
+                width: 100%;
+                height: 100%;
+            }
+
+            main nav.servicos div.card span.content h1{
+                color: #d58e3e;
+                font-weight: bolder;
+                text-align: center;
+            }
+
+            main nav.servicos div.card span.content button{
+                padding: 10px 30px;
+                margin:10px 0px ;
+                background-color: #d58e3e;
+                color: white;
+                font-weight: bolder;
+                border: none;
+                border-radius: 25px;
+                transition: .5s;
+            }
+
+            main nav.servicos div.card span.content button:hover{
+               
+                background-color: transparent;
+                color: #d58e3e;
+                border: 2px solid #d58e3e;
+               
+            }
+/* <main/>*/
